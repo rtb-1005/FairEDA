@@ -1,5 +1,7 @@
 # FairEDA
 
+![FairEDA project cover](figures/preview/cover.png)
+
 **Reproducible code, frozen inputs, and publication-quality figures for artifact-removal evaluation in electrodermal activity (EDA).**
 
 > Artifact removal improves electrodermal waveforms but not downstream classification in a virtual-reality balance task.
@@ -10,11 +12,11 @@
 
 This repository provides the analysis scripts, frozen derived inputs, vector
 figures, and editable schematic sources associated with the study. The
-manuscript source and bibliography are intentionally kept out of this public
-code repository until the preprint is released. No upstream EDABE or VR raw
-recordings are redistributed.
+manuscript source, compiled article, and bibliography are intentionally kept
+out of this code release; the preprint will be distributed separately. No
+upstream EDABE or VR raw recordings are redistributed.
 
-![FairEDA study design](figures/preview/fig01_design.png)
+**Start here:** [key figures](#key-figures) · [reproduce the checks](#reproduce-the-reported-checks) · [data access](#data-access) · [citation](#citation)
 
 ## Repository layout
 
@@ -40,10 +42,10 @@ recordings are redistributed.
 | Figures 3-6 and 7-9 (manuscript figure PDFs) | `paper/figures/` |
 | Rebuilt data figures and their frozen inputs | `figures/source/nature_data_figures.py`, `data/figure_inputs/`, `build/figures/` |
 
-## Key manuscript figures
+## Key figures
 
-The principal manuscript figures are included as vector PDFs. The complete set
-is in [`paper/figures/`](paper/figures/); these links highlight the figures most
+The principal figures are included as vector PDFs. The complete set is in
+[`paper/figures/`](paper/figures/); the links below highlight the figures most
 useful for quickly understanding the study:
 
 | Figure | Purpose | File |

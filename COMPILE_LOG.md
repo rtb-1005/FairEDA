@@ -7,7 +7,6 @@ contain upstream recordings or research-process notes.
 
 - Repository: https://github.com/rtb-1005/FairEDA
 - Zenodo concept DOI: https://doi.org/10.5281/zenodo.23167890
-- Current archived release DOI: https://doi.org/10.5281/zenodo.23168617
 - Manuscript source and compiled manuscript: intentionally not included in this code release
 
 ## Environment
