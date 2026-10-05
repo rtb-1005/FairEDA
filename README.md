@@ -16,7 +16,7 @@ The repository contains the manuscript source, final vector figures, editable sc
 | `figures/editable/` | Editable PowerPoint schematics |
 | `data/derived/` | Derived tables and frozen window-level inputs used by the scripts |
 | `data/figure_inputs/` | Frozen plotting inputs |
-| `build/figures/` | Rebuilt data-figure PDFs, vector sources, raster proofs, and QC manifest |
+| `build/figures/` | Generated data-figure outputs (created by the figure command; not versioned) |
 | `COMPILE_LOG.md` | Build, numerical-check, figure-QC, and package-scan results |
 
 ## Manuscript mapping
@@ -24,7 +24,7 @@ The repository contains the manuscript source, final vector figures, editable sc
 | Manuscript object | Reproducible source |
 | --- | --- |
 | Tables 1-4 and the reported null-evidence checks | `src/analysis/null_evidence_tests.py`, `data/derived/null_evidence_tests_recomputed.csv` |
-| Participant-confound analysis and Figure 9 | `src/analysis/participant_confound.py`, `data/derived/participant_confound_recomputed.json`, `build/figures/fig16_confound.pdf` |
+| Participant-confound analysis and Figure 9 | `src/analysis/participant_confound.py`, `data/derived/participant_confound_recomputed.json`, `paper/figures/fig09_confound.pdf` |
 | Figures 1-2 (schematics) | `figures/editable/fig01_design.pptx`, `figures/editable/fig02_architecture.pptx` |
 | Figures 3-6 and 7-9 (manuscript figure PDFs) | `paper/figures/` |
 | Rebuilt data figures and their frozen inputs | `figures/source/nature_data_figures.py`, `data/figure_inputs/`, `build/figures/` |
@@ -85,4 +85,4 @@ No original dataset files are included here. The included files are derived or f
 
 ## Citation
 
-Please cite the associated manuscript and this repository. The archived release has DOI [10.5281/zenodo.23167891](https://doi.org/10.5281/zenodo.23167891).
+Please cite the associated manuscript and this repository. The repository and its versioned releases are archived at Zenodo under concept DOI [10.5281/zenodo.23167890](https://doi.org/10.5281/zenodo.23167890). The current release is [10.5281/zenodo.23168617](https://doi.org/10.5281/zenodo.23168617).
