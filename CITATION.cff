@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "FairEDA: code and frozen inputs for artifact-removal evaluation"
+message: "Please cite the associated manuscript and this repository."
+type: software
+authors:
+  - family-names: Chai
+    given-names: Haochen
+  - family-names: Zhu
+    given-names: Qixu
+    orcid: https://orcid.org/0009-0000-3169-5325
+  - family-names: Li
+    given-names: Siyao
+    orcid: https://orcid.org/0000-0004-0368-6968
+  - family-names: Jiang
+    given-names: Fangfang
+date-released: 2026-10-05
+repository-code: https://github.com/TARGET/FairEDA
+url: https://github.com/TARGET/FairEDA
+doi: 10.5281/zenodo.XXXXXXX
+license: MIT
