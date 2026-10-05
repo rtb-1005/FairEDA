@@ -85,4 +85,4 @@ No original dataset files are included here. The included files are derived or f
 
 ## Citation
 
-Please cite the associated manuscript and this repository. The repository DOI will be added to `CITATION.cff` after the Zenodo archive is published.
+Please cite the associated manuscript and this repository. The archived release has DOI [10.5281/zenodo.23167891](https://doi.org/10.5281/zenodo.23167891).

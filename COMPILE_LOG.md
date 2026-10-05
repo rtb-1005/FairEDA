@@ -3,6 +3,12 @@
 This log records the checks for the current release package. It does not
 contain upstream recordings or research-process notes.
 
+## Release metadata
+
+- Repository: https://github.com/rtb-1005/FairEDA
+- Archived release DOI: https://doi.org/10.5281/zenodo.23167891
+- Manuscript build: 10 A4 pages
+
 ## Manuscript build
 
 Command sequence:
@@ -61,4 +67,5 @@ modified by the generator.
 The package contains the manuscript source and PDF, nine manuscript figure
 PDFs, two editable PowerPoint schematics, analysis scripts, frozen derived
 inputs, plotting sources, and the licenses and citation metadata needed for a
-public release.
+public release. The package does not include deleted historical versions or
+upstream recordings.
