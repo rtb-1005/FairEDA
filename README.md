@@ -19,6 +19,16 @@ The repository contains the manuscript source, final vector figures, editable sc
 | `build/figures/` | Rebuilt data-figure PDFs, vector sources, raster proofs, and QC manifest |
 | `COMPILE_LOG.md` | Build, numerical-check, figure-QC, and package-scan results |
 
+## Manuscript mapping
+
+| Manuscript object | Reproducible source |
+| --- | --- |
+| Tables 1-4 and the reported null-evidence checks | `src/analysis/null_evidence_tests.py`, `data/derived/null_evidence_tests_recomputed.csv` |
+| Participant-confound analysis and Figure 9 | `src/analysis/participant_confound.py`, `data/derived/participant_confound_recomputed.json`, `build/figures/fig16_confound.pdf` |
+| Figures 1-2 (schematics) | `figures/editable/fig01_design.pptx`, `figures/editable/fig02_architecture.pptx` |
+| Figures 3-6 and 7-9 (manuscript figure PDFs) | `paper/figures/` |
+| Rebuilt data figures and their frozen inputs | `figures/source/nature_data_figures.py`, `data/figure_inputs/`, `build/figures/` |
+
 ## Requirements
 
 Python 3.12 or newer and a LaTeX installation with `pdflatex` and `bibtex` are recommended. Install the Python dependencies with:
