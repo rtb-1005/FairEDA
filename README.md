@@ -16,7 +16,7 @@ manuscript source, compiled article, and bibliography are intentionally kept
 out of this code release; the preprint will be distributed separately. No
 upstream EDABE or VR raw recordings are redistributed.
 
-**Start here:** [key figures](#key-figures) · [reproduce the checks](#reproduce-the-reported-checks) · [data access](#data-access) · [citation](#citation)
+**Start here:** [latest code release](https://github.com/rtb-1005/FairEDA/releases/tag/v1.0.2) · [key figures](#key-figures) · [reproduce the checks](#reproduce-the-reported-checks) · [data access](#data-access) · [citation](#citation)
 
 ## Repository layout
 
