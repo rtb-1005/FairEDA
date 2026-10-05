@@ -1,7 +1,5 @@
 # FairEDA
 
-![FairEDA project cover](figures/preview/cover.png)
-
 **Reproducible code, frozen inputs, and publication-quality figures for artifact-removal evaluation in electrodermal activity (EDA).**
 
 > Artifact removal improves electrodermal waveforms but not downstream classification in a virtual-reality balance task.
@@ -17,6 +15,10 @@ out of this code release; the preprint will be distributed separately. No
 upstream EDABE or VR raw recordings are redistributed.
 
 **Start here:** [latest code release](https://github.com/rtb-1005/FairEDA/releases/tag/v1.0.2) · [key figures](#key-figures) · [reproduce the checks](#reproduce-the-reported-checks) · [data access](#data-access) · [citation](#citation)
+
+![Study design](figures/preview/fig01_design.png)
+
+![Network architecture](figures/preview/fig02_architecture.png)
 
 ## Repository layout
 
