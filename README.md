@@ -85,4 +85,4 @@ No original dataset files are included here. The included files are derived or f
 
 ## Citation
 
-Please cite the manuscript and link to the published article when available. Replace the repository URL and DOI placeholders in `CITATION.cff` after the public repository and Zenodo archive have been created; the manuscript availability statement should be updated with the same persistent DOI.
+Please cite the associated manuscript and this repository. The repository DOI will be added to `CITATION.cff` after the Zenodo archive is published.
