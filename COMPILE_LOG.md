@@ -8,23 +8,7 @@ contain upstream recordings or research-process notes.
 - Repository: https://github.com/rtb-1005/FairEDA
 - Zenodo concept DOI: https://doi.org/10.5281/zenodo.23167890
 - Current archived release DOI: https://doi.org/10.5281/zenodo.23168617
-- Manuscript build: 10 A4 pages
-
-## Manuscript build
-
-Command sequence:
-
-```sh
-pdflatex -interaction=nonstopmode -halt-on-error main.tex
-bibtex main
-pdflatex -interaction=nonstopmode -halt-on-error main.tex
-pdflatex -interaction=nonstopmode -halt-on-error main.tex
-```
-
-Result: successful compilation, 10 A4 pages. The final LaTeX pass had no
-undefined references, undefined citations, or multiply-defined labels. The
-only remaining diagnostic is a font-size substitution warning from the TeX
-distribution.
+- Manuscript source and compiled manuscript: intentionally not included in this code release
 
 ## Environment
 
@@ -34,7 +18,6 @@ distribution.
 - scipy: 1.16.3
 - matplotlib: 3.10.6
 - pillow: 12.0.0
-- TeX: TeX Live 2026 / BibTeX 0.99e
 
 ## Statistical checks
 
@@ -65,8 +48,9 @@ modified by the generator.
 - original EDABE or VR recording files: not included
 - system metadata files: not included
 
-The package contains the manuscript source and PDF, nine manuscript figure
-PDFs, two editable PowerPoint schematics, analysis scripts, frozen derived
-inputs, plotting sources, and the licenses and citation metadata needed for a
-public release. The package does not include deleted historical versions or
-upstream recordings.
+The package contains nine manuscript figure PDFs, five PNG figure previews, two editable PowerPoint
+schematics, analysis scripts, frozen derived inputs, plotting sources, and the
+licenses and citation metadata needed for a public code release. Manuscript
+source, bibliography, and compiled manuscript files are kept outside the
+public GitHub tree until the preprint is released. The package does not include
+deleted historical versions or upstream recordings.

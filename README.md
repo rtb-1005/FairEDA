@@ -1,23 +1,34 @@
 # FairEDA
 
-Code and frozen derived inputs for reproducing the tables and figures in:
+**Reproducible code, frozen inputs, and publication-quality figures for artifact-removal evaluation in electrodermal activity (EDA).**
 
 > Artifact removal improves electrodermal waveforms but not downstream classification in a virtual-reality balance task.
 
-The repository contains the manuscript source, final vector figures, editable schematic sources, analysis scripts, and the derived inputs required by those scripts. It does not redistribute the upstream EDABE or VR balance-disturbance datasets.
+[![Code](https://img.shields.io/badge/code-Python%203.12%2B-3776AB?logo=python&logoColor=white)](requirements.txt)
+[![License](https://img.shields.io/badge/code-MIT-2ea44f)](LICENSE)
+[![Archive DOI](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.23167890-1682d4)](https://doi.org/10.5281/zenodo.23167890)
+
+This repository provides the analysis scripts, frozen derived inputs, vector
+figures, and editable schematic sources associated with the study. The
+manuscript source and bibliography are intentionally kept out of this public
+code repository until the preprint is released. No upstream EDABE or VR raw
+recordings are redistributed.
+
+![FairEDA study design](figures/preview/fig01_design.png)
 
 ## Repository layout
 
 | Path | Contents |
 | --- | --- |
-| `paper/` | LaTeX source, bibliography, compiled figures, and compiled manuscript |
+| `paper/figures/` | Final vector PDFs used by the manuscript |
 | `src/analysis/` | Reproducible null-evidence and participant-confound analyses |
 | `figures/source/` | Frozen-input plotting and schematic builders |
 | `figures/editable/` | Editable PowerPoint schematics |
+| `figures/preview/` | PNG previews of selected manuscript figures |
 | `data/derived/` | Derived tables and frozen window-level inputs used by the scripts |
 | `data/figure_inputs/` | Frozen plotting inputs |
 | `build/figures/` | Generated data-figure outputs (created by the figure command; not versioned) |
-| `COMPILE_LOG.md` | Build, numerical-check, figure-QC, and package-scan results |
+| `COMPILE_LOG.md` | Numerical checks, figure-QC, and package-scan results |
 
 ## Manuscript mapping
 
@@ -45,7 +56,8 @@ useful for quickly understanding the study:
 | Fig. 9 | Participant-confound check | [`fig09_confound.pdf`](paper/figures/fig09_confound.pdf) |
 
 The editable PowerPoint sources for the two schematics are in
-[`figures/editable/`](figures/editable/).
+[`figures/editable/`](figures/editable/). PNG previews of the key figures are
+in [`figures/preview/`](figures/preview/) for quick browsing on GitHub.
 
 ## Requirements
 
@@ -74,16 +86,6 @@ python figures/source/nature_data_figures.py --output build/figures
 
 The generated PDFs are deterministic displays of the frozen inputs. The two schematics are native editable PowerPoint files in `figures/editable/`; their builder requires the bundled presentation runtime or a compatible Node.js installation.
 
-## Build the manuscript
-
-```sh
-cd paper
-pdflatex -interaction=nonstopmode -halt-on-error main.tex
-bibtex main
-pdflatex -interaction=nonstopmode -halt-on-error main.tex
-pdflatex -interaction=nonstopmode -halt-on-error main.tex
-```
-
 ## Data access
 
 The upstream datasets must be obtained from their original repositories under their stated licences:
@@ -95,7 +97,7 @@ No original dataset files are included here. The included files are derived or f
 
 ## Reproducibility boundary
 
-**Directly reproducible:** manuscript compilation, frozen-input figures, null-evidence checks, and participant-confound check.
+**Directly reproducible:** frozen-input figures, null-evidence checks, and participant-confound check.
 
 **Requires upstream data and the training environment:** training or refitting the residual gate and regenerating upstream predictions.
 
@@ -103,4 +105,5 @@ No original dataset files are included here. The included files are derived or f
 
 ## Citation
 
-Please cite the associated manuscript and this repository. The repository and its versioned releases are archived at Zenodo under concept DOI [10.5281/zenodo.23167890](https://doi.org/10.5281/zenodo.23167890). The current release is [10.5281/zenodo.23168617](https://doi.org/10.5281/zenodo.23168617).
+Please cite the associated manuscript once the preprint is released, and cite
+this repository using the Zenodo concept DOI [10.5281/zenodo.23167890](https://doi.org/10.5281/zenodo.23167890).

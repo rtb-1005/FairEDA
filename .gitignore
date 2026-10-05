@@ -2,6 +2,9 @@ __pycache__/
 *.pyc
 .DS_Store
 build/
+paper/main.tex
+paper/main.pdf
+paper/refs.bib
 *.aux
 *.log
 *.blg
