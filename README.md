@@ -29,6 +29,24 @@ The repository contains the manuscript source, final vector figures, editable sc
 | Figures 3-6 and 7-9 (manuscript figure PDFs) | `paper/figures/` |
 | Rebuilt data figures and their frozen inputs | `figures/source/nature_data_figures.py`, `data/figure_inputs/`, `build/figures/` |
 
+## Key manuscript figures
+
+The principal manuscript figures are included as vector PDFs. The complete set
+is in [`paper/figures/`](paper/figures/); these links highlight the figures most
+useful for quickly understanding the study:
+
+| Figure | Purpose | File |
+| --- | --- | --- |
+| Fig. 1 | Study design and evaluation flow | [`fig01_design.pdf`](paper/figures/fig01_design.pdf) |
+| Fig. 2 | Model and processing architecture | [`fig02_architecture.pdf`](paper/figures/fig02_architecture.pdf) |
+| Fig. 3 | Downstream task effect | [`fig03_task_effect.pdf`](paper/figures/fig03_task_effect.pdf) |
+| Fig. 4 | Waveform-level effect | [`fig04_waveforms.pdf`](paper/figures/fig04_waveforms.pdf) |
+| Fig. 7 | Decision-count comparison | [`fig07_decisions.pdf`](paper/figures/fig07_decisions.pdf) |
+| Fig. 9 | Participant-confound check | [`fig09_confound.pdf`](paper/figures/fig09_confound.pdf) |
+
+The editable PowerPoint sources for the two schematics are in
+[`figures/editable/`](figures/editable/).
+
 ## Requirements
 
 Python 3.12 or newer and a LaTeX installation with `pdflatex` and `bibtex` are recommended. Install the Python dependencies with:
